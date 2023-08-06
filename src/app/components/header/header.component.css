@@ -20,6 +20,11 @@ img {
   border-radius: 5px;
   box-shadow: 0 0 10px #3fad23;
 }
+
+img:hover {
+  transform: scale(2);
+}
+
 .ekart--header--nav {
   width: 70%;
   padding: 1vh 2vh;
