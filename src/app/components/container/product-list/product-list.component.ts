@@ -615,6 +615,7 @@ export class ProductListComponent {
   selectedFilterRadioButton: string = 'all';
 
   onFilterChanged(value: string) {
+    console.log(value);
     this.selectedFilterRadioButton = value;
   }
 }
