@@ -14,6 +14,7 @@ import { ProductDetailComponent } from './components/container/product-detail/pr
 import { FeaturedBrandsComponent } from './components/container/featured-brands/featured-brands.component';
 import { SetBackground } from './components/CustomDirectives/SetBackground.directive';
 import { HighlightDirective } from './components/CustomDirectives/highlight.directive';
+import { AppHoverDirective } from './components/CustomDirectives/app-hover.directive';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HighlightDirective } from './components/CustomDirectives/highlight.dire
     FeaturedBrandsComponent,
     SetBackground,
     HighlightDirective,
+    AppHoverDirective,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
